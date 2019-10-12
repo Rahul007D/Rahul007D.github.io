@@ -11,7 +11,7 @@ body {
 
 
 .sidenav {
-	border-right: 1px #dedede solid;
+border-right: 1px #dedede solid;
   height: 100%;
   width: 70px;
   position: fixed;
@@ -23,7 +23,7 @@ body {
 
 }
 .sidenav1 {
-	border-right: 1px #dedede solid;
+border-right: 1px #dedede solid;
   height: 100%;
   width: 70px;
   position: fixed;
