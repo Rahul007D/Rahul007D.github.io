@@ -16,6 +16,18 @@ body {
   width: 70px;
   position: fixed;
   z-index: 1;
+  top: 100px;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+
+}
+.sidenav1 {
+	border-right: 1px #dedede solid;
+  height: 100%;
+  width: 70px;
+  position: fixed;
+  z-index: 1;
   top: 0px;
   left: 0;
   background-color: #fff;
@@ -32,6 +44,8 @@ body {
 }
 
 .sidenav a:hover {
+border-right: 2px;
+border-right: inset #67D1BA;;		
   color:#67D1BA;
 }
 
