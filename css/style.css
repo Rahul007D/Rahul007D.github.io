@@ -1,70 +1,30 @@
-
-
 body {
-	font-size: 15px;
+    font-size: 15px;
     line-height: 1.52;
     color: #717f86;
     font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-
-
-.sidenav {
-	border-right: 1px #dedede solid;
-  height: 100%;
-  width: 70px;
-  position: fixed;
-  z-index: 1;
-  top: 0px;
-  left: 0;
-  background-color: #fff;
-  overflow-x: hidden;
-
-}
-
-.sidenav a {
-  padding: 6px 6px 6px 25px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #111;
-  display: block;
-}
-
-.sidenav a:hover {
-  color:#67D1BA;
-}
-
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-}
-
-
-}
-
-
-
-
-
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 .section-padding{
-	padding: 60px 0px;
+    padding: 100px 0px;
 }
-h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6{
     font-family: Open Sans, sans-serif;
     font-weight: 700;
     color: #4B4B4C;
@@ -79,10 +39,10 @@ a:hover, a:focus{
 Navigation bar
 ************************************/
 .navbar-default .navbar-brand {
-    color: #5FCF80;
+    color: #00008B;
 }
 .navbar-default {
-    background-color: #ffffff;
+    background-color: #ADD8E6;
 }
 .course-text{
     padding: 84px;
@@ -93,137 +53,31 @@ Navigation bar
     font-weight: 700;
 }
 .navbar-nav > li > a{
-	padding: 0px;
-	margin: 10px 5px;
-	padding: 10px 15px;
+    padding: 0px;
+    margin: 10px 5px;
+    padding: 10px 15px;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
 {
-	color: #5FCF80;
+    color: #00008B;
 }
 
 .navbar-nav .active a{
     background: none !important;
-    color: #5FCF80 !important;
+    color: #00008B !important;
     outline: none;
 }
 
-#ex4 .p1[data-count]:after{
-  position:absolute;
-  right:10%;
-  top:8%;
-  content: attr(data-count);
-  font-size:40%;
-  padding:.2em;
-  border-radius:50%;
-  line-height:1em;
-  color: white;
-  background:rgba(255,0,0,.85);
-  text-align:center;
-  min-width: 1em;
-  //font-weight:bold;
-}
-
-
-#ex3 .fa-stack[data-count]:after{
-  position:absolute;
-  right:0%;
-  top:1%;
-  content: attr(data-count);
-  font-size:30%;
-  padding:.6em;
-  border-radius:50%;
-  line-height:.8em;
-  color: white;
-  background:rgba(255,0,0,.85);
-  text-align:center;
-  min-width: 1em;
-  font-weight:bold;
-}
-
-
-/* on ex2 if you include bootstrap v3 css the number is a rounded circle with the .has-badge class */
-#ex2 .fa-stack[data-count]:after{
-  position:absolute;
-  right:0%;
-  top:1%;
-  content: attr(data-count);
-  font-size:30%;
-  padding:.6em;
-  border-radius:999px;
-  line-height:.75em;
-  color: white;
-  background:rgba(255,0,0,.85);
-  text-align:center;
-  min-width:2em;
-  font-weight:bold;
-}
-
-
-
-
-#ex1 .icon-grey {color: grey}
-#ex1 i {   
-    width:100px;
-    text-align:center;
-    vertical-align:middle;
-    position: relative;
-}
-#ex1 .badge:after{
-    content:"100";
-    position: absolute;
-    background: rgba(0,0,255,1);
-    height:2rem;
-    top:1rem;
-    right:1.5rem;
-    width:2rem;
-    text-align: center;
-    line-height: 2rem;;
-    font-size: 1rem;
-    border-radius: 50%;
-    color:white;
-    border:1px solid blue;
-}
-
-
-
-
-
-
-[data-letters]:before {
-  content:attr(data-letters);
-  display:inline-block;
-  font-size:1.2em;
-  width:2.5em;
-  height:2.5em;
-  line-height:2.5em;
-  text-align:center;
-  border-radius:50%;
-  background:plum;
-  vertical-align:middle;
-  margin-right:0.2em;
-  color:white;
-  }
-  
-.zoom {
-  transition: transform .1s; /* Animation */
-}
-
-.zoom:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-
-}
-
 .btn-trial a{
-	background-color: #5FCF80;
-	border-radius: 25px;
-	color: #ffffff !important;
-	border: 1px solid #5FCF80;
+    background-color: #00008B;
+    border-radius: 25px;
+    color: #ffffff !important;
+    border: 1px solid #00008B;
 }
 .btn-trial a:hover, .btn-trial a:focus{
-	border: 1px solid #5FCF80;
-	background-color: #fff;
-	color: #5FCF80 !important;
+    border: 1px solid #00008B;
+    background-color: #fff;
+    color: #00008B !important;
 }
 .navbar-default .navbar-brand {
     font-family: 'Dosis', sans-serif !important;
@@ -235,51 +89,46 @@ Navigation bar
     margin: 20px 0px;
 }
 .navbar-default .navbar-brand span{
-	font-weight: 100 !important;
+    font-weight: 100 !important;
 }
 .navbar {
     margin-bottom: 0px;
-	 margin-left: 70px;
-}
-.navbar1 {
-    margin-right: 0px;
 }
 .padding-zero{
-	padding: 0px;
+    padding: 0px;
 }
 .mart20{
-	margin-top: 20px;
+    margin-top: 20px;
 }
 /***********************************
 Banner
 ************************************/
 .banner{
-	background: url('../img/bg-banner.jpg') no-repeat center top;
+    background: url('../img/background4.1.jpg') no-repeat center top;
     background-size: cover;
-	min-height: 580px;
+    min-height: 750px;
     position: relative;
 }
 .bg-color{
-	background-color: RGBA(12, 11, 11, 0.82);
-	min-height: 580px;
+    background-color: RGBA(11, 11, 11, 0.4);
+    min-height: 750px;
 }
 .text-dec{
-	font-size: 24px;
-	padding: 10px 20px;
-    margin: 15px 0;
-	text-transform: uppercase;
-    color: #fff;
+         font-size: 150px;
+    padding: 10px 70px;
+    margin: 8px 0;
+    color: #FFFFFF;
 }
 .text-border{
-	border: 5px solid #5FCF80;
-	display: inline-block;
-	margin-top: 150px;
+    //border: 5px solid #5FCF80;
+    //display: inline-block;
+    margin-top: 250px;
 }
 .intro-para{
-	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 45px;
-	color: #fff;
-	margin-top: 30px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 45px;
+    color: #fff;
+    margin-top: 100px;
 }
 .quote .btn{
     background-color:
@@ -357,10 +206,10 @@ Banner
     padding-right: 0px;
 }
 .big-text{
-    font-size: 35px;
+    font-size: 40px;
 }
 .small-text{
-    font-size: 16px;
+    font-size: 20px;
 }
 .quote .btn{
     background-color: #5fcf80;
@@ -382,16 +231,17 @@ Banner
 Features
 ************************************/
 h2{
-	font-size: 24px;
-	padding-bottom: 15px;
+    font-size: 24px;
+    padding-bottom: 25px;
 }
 .bottom-line{
-	width: 25px;
-	height: 3px;
-	background-color: rgb(99, 122, 145);
+    width: 25px;
+    height: 3px;
+    background-color: rgb(99, 122, 145);
 }
 .fea{
-	margin-top: 25px;
+    margin-top: 140px;
+    
 }
 .fea-img {
   width: 20%;
@@ -415,95 +265,7 @@ h2{
 .heading p {
   text-align: left;
 }
-/***********************************
- Organisations
-************************************/
-#organisations{
-    background-color: rgb(247, 247, 247);
-}
-.orga-stru
-{
-    background-color: #5FCF80;
-    width: 109px;
-    height: auto;
-    padding: 0px 10px 5px 10px;
-    text-align: center;
-   
-}
-.orga-stru h3 {
-    font-size: 36px;
-    color: white;
-    font-weight: bold;
-}
-.orga-stru p {
-    font-size: 14px;
-    color: white;
-    font-weight: normal;
-    line-height: 20px;
-    padding-top: 15px;
-}
-.orga-stru i
-{
-    font-size: 150px;
-    margin-top: 35px;
-    color: rgb(255, 255, 255);
-}
-h3.det-txt {
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-h4.sm-txt {
-    color: #5FCF80;
-    font-size: 24px;
-}
-p.det-p {
-    padding: 40px 0px;
-}
-#pricing{
-    background: rgb(247, 247, 247);
-}
-/***********************************
-Cta
-************************************/
-#cta-2{
-    padding: 140px 0;
-}
-.cta-2-txt {
-    font-size: 24px;
-    padding-bottom: 15px;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 34px !important;
-}
-.cta-2-form input[type="email"] {
-    border: 0px solid #CCC;
-    padding: 13px 40px;
-    font-size: 18px;
-    color: #2b5d83;
-    font-weight: 100;
-    min-width: 280px;
-    margin-left: -4px;
-    margin-bottom: 2px;
-    border: 1px solid #5fcf80;
-    background-color: rgb(247, 247, 247);
-    border-radius: 30px 0px 0px 30px;
-}
-.cta-2-form-submit-btn {
-    font-size: 18px;
-    text-transform: capitalize;
-    color: #fff;
-    background-color: #5fcf80;
-    border: 2px solid #fff;
-    padding: 14px 30px;
-    margin-left: -4px;
-    transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    border-width: 1px 1px 1px 0px;
-    border-radius: 0px 30px 30px 0px;
-}
+
 /***********************************
 Work Shop
 ************************************/
@@ -575,55 +337,13 @@ Testimonial
 Course
 ************************************/
 [class*=" imghvr-"] figcaption, [class^="imghvr-"] figcaption {
-    background-color: #5FCF80;
+    background-color: #FF4500;
 }
 [class*=" imghvr-"], [class^="imghvr-"] {
-    background-color: #5FCF80;
+    background-color: #FF4500;
     color: #fff;
 }
-/***********************************
-Price Table
-************************************/
-.price-table {
-    box-shadow: 0px 0px 1px 0px RGBA(0, 0, 0, 0.4);
-    position: relative;
-}
-.price-table .pricing-head {
-    background: #fff;
-    padding: 40px;
-    text-align: center;
-}
-.price-table .pricing-head h4 {
-    font-size: 22px;
-    color: #232c3b;
-    margin-top: 0px;
-    letter-spacing: 1px;
-    border-bottom: 1px solid #232c3b;
-    padding-bottom: 20px;
-}
-.pricing-head .amount {
-    font-size: 60px;
-    font-weight: bold;
-}
-.pricing-head .curency {
-    display: inline-block;
-    position: relative;
-    top: -30px;
-    font-size: 20px;
-}
-.price-in {
-    background: #fff;
-    text-align: center;
-}
-.btn-bg {
-    border: 0px;
-    border-radius: 0px;
-    color: #fff !important;
-    padding: 20px 0px;
-    font-weight: bold !important;
-    font-size: 14px;
-    background-color: #5fcf80;
-}
+
 /***********************************
 Contact Us
 ************************************/
@@ -640,7 +360,7 @@ Contact Us
     background: #fafafa;
     border: 1px solid rgba(119, 81, 81, 0.34);
     width: 100%;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
     border-radius: 0;
 
 }
@@ -685,28 +405,28 @@ Contact Us
 }
 
 #sendmessage.show, #errormessage.show, .show {
-	display:block;
+    display:block;
 }
 /***********************************
 Footer
 ************************************/
 .footer {
-    padding: 60px 0 20px;
-    background: #f7f7f7;
-    
+    padding: 10px 0 10px;
+    background: #111;
+    color: #ccc;
 }
 .footer a {
-    color: #101010;
+    color: #fff;
 }
 
 .footer h3{
-	font-weight: 300;
-	letter-spacing: 0.05em;
-	margin: 0 0 40px;
-	font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin: 0 0 40px;
+    font-size: 24px;
 }
 .footer .form-control {
-    border-radius: 30px;
+    border-radius: 10px;
     border: none;
     background: rgba(255,255,255,.1);
     padding-left: 30px;
@@ -715,8 +435,8 @@ Footer
     height: 48px;
 }
 .footer .social-links li a {
-    color: #777;
-    font-size: 40px;
+    color: #fff;
+    font-size: 32px;
     line-height: 50px;
     border-radius: 50%;
     text-align: center;
@@ -730,28 +450,28 @@ Footer
     transition: all .3s ease-out;
 }
 .footer .mc-trial {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 .footer .social-links {
     list-style: none;
     padding: 0;
-    
-    padding: 10px 0 0;
+    margin: 30px 0 40px;
+    padding: 40px 0 0;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 .btn-submit:hover, .btn-submit:focus{
-    background-color: #5fcf80;
+    background-color: #00008B;
     color: #fff;
 }
 .btn-submit{
-	padding: 14px 12px;
-	border-radius: 50px;
-	text-transform: uppercase;
-    background-color: #5fcf80;
+    padding: 14px 12px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: #00008B;
     color: #fff;
 }
 .btn-submit i{
-	padding-left: 8px;
+    padding-left: 8px;
 }
 
 .btn-sec {
@@ -795,7 +515,7 @@ Footer
     padding: 10px 20px;
 }
 .light-form-button{
-    background: #5fcf80;
+    background: #87CEFA;
     border: 1px solid rgba(119, 81, 81, 0.34);
     width: 24%;
     padding: 10px 10px;
@@ -918,3 +638,4 @@ Responsive media queries
         text-align: center;
     }
 }
+
