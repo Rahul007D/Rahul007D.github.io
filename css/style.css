@@ -1,28 +1,28 @@
 body {
-    font-size: 15px;
+	font-size: 15px;
     line-height: 1.52;
     color: #717f86;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 ol, ul {
-    list-style: none;
+	list-style: none;
 }
 blockquote, q {
-    quotes: none;
+	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
-    content: none;
+	content: '';
+	content: none;
 }
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 .section-padding{
-    padding: 100px 0px;
+	padding: 100px 0px;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: Open Sans, sans-serif;
@@ -39,10 +39,10 @@ a:hover, a:focus{
 Navigation bar
 ************************************/
 .navbar-default .navbar-brand {
-    color: #00008B;
+    color: #5FCF80;
 }
 .navbar-default {
-    background-color: #ADD8E6;
+    background-color: #ffffff;
 }
 .course-text{
     padding: 84px;
@@ -53,31 +53,31 @@ Navigation bar
     font-weight: 700;
 }
 .navbar-nav > li > a{
-    padding: 0px;
-    margin: 10px 5px;
-    padding: 10px 15px;
+	padding: 0px;
+	margin: 10px 5px;
+	padding: 10px 15px;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
 {
-    color: #00008B;
+	color: #5FCF80;
 }
 
 .navbar-nav .active a{
     background: none !important;
-    color: #00008B !important;
+    color: #5FCF80 !important;
     outline: none;
 }
 
 .btn-trial a{
-    background-color: #00008B;
-    border-radius: 25px;
-    color: #ffffff !important;
-    border: 1px solid #00008B;
+	background-color: #5FCF80;
+	border-radius: 25px;
+	color: #ffffff !important;
+	border: 1px solid #5FCF80;
 }
 .btn-trial a:hover, .btn-trial a:focus{
-    border: 1px solid #00008B;
-    background-color: #fff;
-    color: #00008B !important;
+	border: 1px solid #5FCF80;
+	background-color: #fff;
+	color: #5FCF80 !important;
 }
 .navbar-default .navbar-brand {
     font-family: 'Dosis', sans-serif !important;
@@ -89,46 +89,46 @@ Navigation bar
     margin: 20px 0px;
 }
 .navbar-default .navbar-brand span{
-    font-weight: 100 !important;
+	font-weight: 100 !important;
 }
 .navbar {
     margin-bottom: 0px;
 }
 .padding-zero{
-    padding: 0px;
+	padding: 0px;
 }
 .mart20{
-    margin-top: 20px;
+	margin-top: 20px;
 }
 /***********************************
 Banner
 ************************************/
 .banner{
-    background: url('../img/background4.1.jpg') no-repeat center top;
+	background: url('../img/bg-banner.jpg') no-repeat center top;
     background-size: cover;
-    min-height: 750px;
+	min-height: 750px;
     position: relative;
 }
 .bg-color{
-    background-color: RGBA(11, 11, 11, 0.4);
-    min-height: 750px;
+	background-color: RGBA(11, 11, 11, 0.4);
+	min-height: 750px;
 }
 .text-dec{
          font-size: 150px;
-    padding: 10px 70px;
+	padding: 10px 70px;
     margin: 8px 0;
     color: #FFFFFF;
 }
 .text-border{
-    //border: 5px solid #5FCF80;
-    //display: inline-block;
-    margin-top: 250px;
+	//border: 5px solid #5FCF80;
+	//display: inline-block;
+	margin-top: 250px;
 }
 .intro-para{
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 45px;
-    color: #fff;
-    margin-top: 100px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 45px;
+	color: #fff;
+	margin-top: 30px;
 }
 .quote .btn{
     background-color:
@@ -231,17 +231,17 @@ Banner
 Features
 ************************************/
 h2{
-    font-size: 24px;
-    padding-bottom: 25px;
+	font-size: 24px;
+	padding-bottom: 25px;
 }
 .bottom-line{
-    width: 25px;
-    height: 3px;
-    background-color: rgb(99, 122, 145);
+	width: 25px;
+	height: 3px;
+	background-color: rgb(99, 122, 145);
 }
 .fea{
-    margin-top: 140px;
-    
+	margin-top: 140px;
+	
 }
 .fea-img {
   width: 20%;
@@ -360,7 +360,7 @@ Contact Us
     background: #fafafa;
     border: 1px solid rgba(119, 81, 81, 0.34);
     width: 100%;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
     border-radius: 0;
 
 }
@@ -405,14 +405,14 @@ Contact Us
 }
 
 #sendmessage.show, #errormessage.show, .show {
-    display:block;
+	display:block;
 }
 /***********************************
 Footer
 ************************************/
 .footer {
     padding: 10px 0 10px;
-    background: #111;
+    background: #4682B4;
     color: #ccc;
 }
 .footer a {
@@ -420,10 +420,10 @@ Footer
 }
 
 .footer h3{
-    font-weight: 300;
-    letter-spacing: 0.05em;
-    margin: 0 0 40px;
-    font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	margin: 0 0 40px;
+	font-size: 24px;
 }
 .footer .form-control {
     border-radius: 10px;
@@ -460,18 +460,18 @@ Footer
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 .btn-submit:hover, .btn-submit:focus{
-    background-color: #00008B;
+    background-color: #5fcf80;
     color: #fff;
 }
 .btn-submit{
-    padding: 14px 12px;
-    border-radius: 50px;
-    text-transform: uppercase;
-    background-color: #00008B;
+	padding: 14px 12px;
+	border-radius: 50px;
+	text-transform: uppercase;
+    background-color: #5fcf80;
     color: #fff;
 }
 .btn-submit i{
-    padding-left: 8px;
+	padding-left: 8px;
 }
 
 .btn-sec {
@@ -515,7 +515,7 @@ Footer
     padding: 10px 20px;
 }
 .light-form-button{
-    background: #87CEFA;
+    background: #5fcf80;
     border: 1px solid rgba(119, 81, 81, 0.34);
     width: 24%;
     padding: 10px 10px;
