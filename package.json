@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayusharma/birthday.git"
+    "url": "git+https://github.com/Rahul007D/Rahul007D.github.io"
   },
   "keywords": [
     "Birthday"
   ],
-  "author": "Ayush Sharma",
-  "license": "WTFPL",
+  "author": "Rahul D",
+  "license": "Demo",
   "bugs": {
-    "url": "https://github.com/ayusharma/birthday/issues"
+    "url": "https://github.com/Rahul007D/Rahul007D.github.io"
   },
-  "homepage": "https://github.com/ayusharma/birthday#readme",
+  "homepage": "https://github.com/Rahul007D/Rahul007D.github.io",
   "dependencies": {
     "http-server": "^0.11.1"
   }
